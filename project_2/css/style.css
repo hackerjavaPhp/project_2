@@ -1,0 +1,554 @@
+@import url(http://allfont.ru/allfont.css?fonts=roboto-slab-regular);
+
+*
+{
+	margin: 0;
+	padding:0;
+	font-family: 'Roboto Slab Regular', arial;
+}
+/*--------------------------------options file---------------------------------------*/
+html { overflow-x: hidden; };   
+
+body
+{
+	background-color: #fff;
+}
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.container
+{
+	margin: 0 auto;
+	width: 1174px;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.red_black
+{
+	color: #ad0000
+}
+
+/*------------------------------------header---------------------------------------*/
+
+header 
+{
+	height: 190px;
+	/* background-color: orange */
+}
+
+header span 
+{
+	display: inline-block;
+	margin-left:80px;
+	margin-top:55px;
+	font-size: 21px;
+}
+
+/* i'm delete element in media -> .str_hed */
+
+header .str_hed
+{
+	text-decoration: underline;
+	position: relative;
+}
+
+header .str_hed:after
+{
+	content: "";
+	width:63px;
+	height:19px;
+	display: inline-block;
+	position: absolute;
+	background-image:url(../img/line_right.jpg);
+	top:9px;
+	right:-78px
+
+}
+
+
+header .Order p
+{
+	text-align: center;
+}
+
+header .Order
+{
+	width: 233px;
+	height: 140px;
+	/* background-color: red; */
+
+	position: relative;
+}
+
+header .Order span
+{
+	margin-left:0px;
+	margin-top:40px;
+	font-size: 24px;
+	display: inline-block;
+}
+
+header .Order a
+{
+	position: absolute;
+	right: 50px;
+	color: black;
+	text-decoration: none;
+	border-bottom: 2px dotted #a3a3a3
+}
+
+/*--------------------------subject_problem_decision------------------------------*/
+
+/*--------------------------------Block-1-----------------------------------------*/
+
+#subject_problem_decision
+{
+	height: 2303px;
+   	/* background-color:#243CED; */ 
+}
+/* ----------------------------- Fon && Фон ----------------------------------- */
+#subject_problem_decision .problem
+{
+	/* background-color: red; */
+	width: 100%;
+	height: 1059px;
+	background-image:url(../img/bonus.jpg);
+	background-repeat:no-repeat;
+	background-position: top right;
+}
+
+#subject_problem_decision .problem .why_problem
+{
+	height: 170px;
+   /* background-color: #ccc; */
+    position: relative;
+}
+
+/*-----------------------blocks------------------------*/
+
+/*background*/
+
+#subject_problem_decision .problem .why_problem .text
+{
+	/* background-color: purple; */
+}
+
+#subject_problem_decision .problem .why_problem .price
+{
+  /*  background-color: green; */
+	margin-left: 128px;
+}
+
+/*Dimensions*/
+
+#subject_problem_decision .problem .why_problem .text ,
+#subject_problem_decision .problem .why_problem .price
+{
+	height: 170px;
+	width: 355px;
+	position: relative;
+}
+
+/* update .text */
+#subject_problem_decision .problem .why_problem .text:after
+{
+	content: '"';
+	position: absolute;
+	top:0px;
+	right: -128px;
+	font-size: 135px;
+	background-color: #ad0000; 
+	display: inline-block;
+	height: 117px;
+	width: 128px;
+	padding-top:10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#subject_problem_decision .problem .why_problem .price:after
+{
+	position: absolute;
+	bottom: 0px;
+	left: 39px;
+	content: "В месяц";
+	font-size: 18px
+}
+
+#subject_problem_decision .problem .why_problem .price:before
+{
+	position: absolute;
+	top: 5px;
+	left: 39px;
+	content: "Всего за";
+	font-size: 24px;
+	color:#ad0000;
+}
+
+/* update block */
+
+#subject_problem_decision .problem .why_problem:before
+{
+	content: "";
+	position: absolute;
+	bottom: -15px;
+	height: 14px;
+	width: 1246px;
+	background-color:#ad0000;
+	right: 300px
+}
+
+/*++++++++++++++++++++size text+++++++++++++++++++++++++*/
+#subject_problem_decision .problem .why_problem .text h3
+{
+	font-size: 24px
+}
+
+#subject_problem_decision .problem .why_problem .text p
+{
+	font-size: 14px;
+	padding-top:20px;
+}
+
+#subject_problem_decision .problem .why_problem .price span
+{
+	font-size: 122px;
+	margin-left: 34px;
+	display:inline-block;
+	padding-top:10px;
+}
+
+/*--------------------------------why_i------------------------------------------*/
+
+/*--------------------------------Block-2-----------------------------------------*/
+
+/* size big block */
+
+#subject_problem_decision .problem .why_i
+{
+	height: 301px;
+	/* background-color: gold; */
+	margin-top:15px;
+}
+
+#subject_problem_decision .problem .why_i .price , 
+#subject_problem_decision .problem .why_i .text
+{
+	height: 220px;
+	width: 355px;
+	position: relative;
+}
+
+/* background */
+
+#subject_problem_decision .problem .why_i .text
+{
+	/* background-color: blue; */
+	padding-top:42px;
+}
+
+#subject_problem_decision .problem .why_i .price
+{
+	/* background-color: #555; */
+	padding-top:42px;
+	margin-left: 128px
+}
+
+/* text */
+#subject_problem_decision .problem .why_i .text h3
+{
+	font-size: 24px;
+}
+
+#subject_problem_decision .problem .why_i .text p
+{
+	font-size: 14px;
+	padding-top:20px;
+}
+
+#subject_problem_decision .problem .why_i .price p
+{
+	padding-top:0px;
+	margin-left: 35px
+}
+
+/* price */
+
+#subject_problem_decision .problem .why_i .price
+{
+	text-align: left;
+}
+
+
+/* upadte 1000$ */
+#subject_problem_decision .problem .why_i .price .many
+{
+	font-size: 60px;
+	position: relative;
+}
+
+#subject_problem_decision .problem .why_i .price .many:after
+{
+	content: "";
+	width:200px;
+	height: 42px;
+	display: inline-block;
+	position: absolute;
+	left: -2px;
+	border-bottom: 2px solid #ad0000
+}
+
+/*---------------------------------.mac-------------------------------------------*/
+
+/*--------------------------------Block-3-----------------------------------------*/
+
+#subject_problem_decision .problem .mac
+{
+	height: 382px;
+	/* background-color: black */
+}
+
+
+#subject_problem_decision .problem .mac .show_work
+{
+	width: 872px;
+	height: 382px;
+	background-image:url(../img/mac.jpg);
+	position: relative;
+	color:white;
+}
+
+#subject_problem_decision .problem .mac .show_work:before
+{
+	content:"";
+	width:374px;
+	height: 380px;
+	background-image:url(../img/mac2.jpg);
+	display: inline-block;
+	left:-374px;
+	top:2px;
+	position: absolute;
+}
+
+#subject_problem_decision .problem .mac .show_work h4 ,
+#subject_problem_decision .problem .mac .show_work p ,
+#subject_problem_decision .problem .mac .show_work button ,
+{
+	margin-left: 3px
+}
+
+#subject_problem_decision .problem .mac .show_work h4 
+{
+	padding-top: 83px;
+	font-size: 24px
+}
+
+#subject_problem_decision .problem .mac .show_work p
+{
+	padding-top: 29px;
+	font-size: 14px
+}
+
+#subject_problem_decision .problem .mac .show_work .button
+{
+	height: 49px;
+	width:191px;
+	display: inline-block;
+	 line-height: 45px;
+	 border: 1px solid white;
+	 text-align: center;
+	 text-decoration: none;
+	 color:white;
+	 margin-top:98px;
+}
+
+
+#subject_problem_decision .problem .mac .show_work .link
+{
+	position: absolute;
+	color:red;
+	left: 230px;
+	top:275px;
+	color: white
+}
+
+/*---------------------------------.city-------------------------------------------*/
+
+/*--------------------------------Block-3-----------------------------------------*/
+
+#subject_problem_decision .problem .city
+{
+	height: 619px;
+	/* background-color: red; */
+	padding-top:99px;
+	position: relative;
+}
+
+#subject_problem_decision .problem .city .text
+{
+	width: 675px;
+	height: 530px;
+	/* background-color: orange ; */
+}
+
+#subject_problem_decision .problem .city .text:after
+{
+	content: "";
+	position: absolute;
+	display: inline-block;
+	bottom: 249px;
+	height: 14px;
+	width: 1246px;
+	background-color:#ad0000;
+}
+
+#subject_problem_decision .problem .city .text h4
+{
+	font-size: 24px;
+}
+
+
+#subject_problem_decision .problem .city .text p
+{
+	padding-top: 31px;
+	font-size: 14px
+}
+
+#subject_problem_decision .problem .city .text span
+{
+	position: absolute;
+	bottom: 140px;
+	font-size: 72px;
+	right: 115px
+}
+
+/*---------------------------------.message-------------------------------------------*/
+
+/*--------------------------------Block-3-----------------------------------------*/
+
+#subject_problem_decision .problem .message
+{
+	height: 579px;
+	/* background-color: red */
+}
+
+#subject_problem_decision .problem .message h2
+{
+	font-size: 122px
+}
+
+#subject_problem_decision .problem .message form
+{
+	width: 578px;
+	height: 247px;
+	 position: relative;
+}
+
+
+#subject_problem_decision .problem .message input
+{
+	width: 557px;
+	border: 0px;
+	border-bottom: 1px solid black;
+	height: 40px;
+	font-size: 18px;
+	padding-left: 10px;
+	margin-top: 30px
+}
+
+#subject_problem_decision .problem .message button
+{
+	width: 176px;
+	border: 1px solid black;
+	height: 40px;
+	font-size: 18px;
+	margin-top: 50px;
+	background-color: white
+}
+
+
+#subject_problem_decision .problem .message a
+{
+	position: absolute;
+	bottom:22.4px;
+	right: 135px;
+	text-decoration: underline;
+	color:black;
+	font-size: 18px
+}
+
+#subject_problem_decision .problem .message a:after
+{
+	content: "";
+	position: absolute;
+	right: -80px;
+	top:5px;
+	width: 63px;
+	height: 19px;
+	background-image:url('../img/line_right.jpg');
+}
+
+
+
+/*---------------------------------------------footer-----------------------------------------------*/
+
+footer 
+{
+	height: 130px;
+	/* background-color: orange */
+}
+
+footer span 
+{
+	display: inline-block;
+	margin-left:80px;
+	margin-top:55px;
+	font-size: 21px;
+}
+
+footer .Order p
+{
+	text-align: center;
+}
+
+footer .Order
+{
+	width: 233px;
+	height: 140px;
+	/* background-color: red; */
+
+	position: relative;
+}
+
+footer .Order span
+{
+	margin-left:0px;
+	margin-top:40px;
+	font-size: 24px;
+	display: inline-block;
+}
+
+footer .Order a
+{
+	position: absolute;
+	right: 50px;
+	color: black;
+	text-decoration: none;
+}
